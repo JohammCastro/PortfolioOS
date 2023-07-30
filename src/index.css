@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #2b2a33;
+}
+.power{
+    margin: 50px;
+    display: grid;
+    place-items: center;
+    margin-top: 40vh;
+    color: white;
+}
+.app{
+    margin: 50px;
+    display: grid;
+    place-items: center;
+    margin-top: 45vh;
+    color: white;
+}
+.MainMenu{
+    margin: 0px;
+    display: block;
+    place-items:inherit;
+    margin-top: 0;
+}
+.boton:hover{
+    background-color: grey;
+}
+.background{
+    background-image: url('img/background.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.base{
+    background-color: #2b2a33;
+}
+
+.carta{
+    background-color: inherit;
+}
+
+.carta:hover{
+    background-color: #2b2a33;
+    transition: background-color 0.1s;
+    cursor: pointer;
+    opacity: 0.9;
+    /* font-size: 17px; */
+}
